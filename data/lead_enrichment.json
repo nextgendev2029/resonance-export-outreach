@@ -1,0 +1,137 @@
+{
+  "lead_sample_us_03": {
+    "lead_id": "lead_sample_us_03",
+    "enrichment_status": "failed",
+    "enriched_at": "2026-09-25T13:06:15.095132Z",
+    "enrichment_run_id": null,
+    "classification": null,
+    "buyer_relevance": null,
+    "business_details": null,
+    "public_contact": null,
+    "evidence": [],
+    "ai_model": null,
+    "ai_confidence": 0.0,
+    "pages_crawled": [
+      "https://www.example-decorboutique.com"
+    ],
+    "error": "Website could not be reached (unreachable)"
+  },
+  "test_persist_lead_99": {
+    "lead_id": "test_persist_lead_99",
+    "enrichment_status": "enriched",
+    "enriched_at": null,
+    "enrichment_run_id": null,
+    "classification": {
+      "classification": "Business",
+      "confidence": 0.9,
+      "reason": "",
+      "evidence": []
+    },
+    "buyer_relevance": {
+      "relevance": "High",
+      "confidence": 0.88,
+      "reason": "",
+      "evidence": []
+    },
+    "business_details": {
+      "company_name": null,
+      "business_type": "Wholesale Distributor",
+      "industry": "Sound Healing",
+      "company_description": null,
+      "wholesale_available": null,
+      "confidence": 0.0
+    },
+    "public_contact": {
+      "name": null,
+      "role": "Procurement",
+      "phone": "+1 555 0199",
+      "email": null,
+      "address": null,
+      "city": null,
+      "country": null,
+      "confidence": 0.0
+    },
+    "evidence": [],
+    "ai_model": "test_model",
+    "ai_confidence": 0.89,
+    "pages_crawled": [],
+    "error": null
+  },
+  "test_lead_no_site_001": {
+    "lead_id": "test_lead_no_site_001",
+    "enrichment_status": "not_applicable",
+    "enriched_at": "2026-09-25T13:16:23.138594Z",
+    "enrichment_run_id": null,
+    "classification": {
+      "classification": "Unclassified",
+      "confidence": 0.3,
+      "reason": "No valid email address available to assess domain structure.",
+      "evidence": []
+    },
+    "buyer_relevance": {
+      "relevance": "Unknown",
+      "confidence": 0.3,
+      "reason": "No company website available to verify business activities.",
+      "evidence": []
+    },
+    "business_details": null,
+    "public_contact": {
+      "name": null,
+      "role": "Unknown",
+      "phone": null,
+      "email": null,
+      "address": null,
+      "city": null,
+      "country": null,
+      "confidence": 0.0
+    },
+    "evidence": [],
+    "ai_model": "heuristic_engine",
+    "ai_confidence": 0.3,
+    "pages_crawled": [],
+    "error": "No company website found"
+  },
+  "lead_test_real_1": {
+    "lead_id": "lead_test_real_1",
+    "enrichment_status": "enriched",
+    "enriched_at": "2026-09-25T13:16:23.072115Z",
+    "enrichment_run_id": null,
+    "classification": {
+      "classification": "Business",
+      "confidence": 0.95,
+      "reason": "Commercial wholesale home decor importer",
+      "evidence": []
+    },
+    "buyer_relevance": {
+      "relevance": "High",
+      "confidence": 0.92,
+      "reason": "Wholesale singing bowls distributor in US",
+      "evidence": []
+    },
+    "business_details": {
+      "company_name": null,
+      "business_type": "Wholesaler",
+      "industry": "Home Decor & Sound Healing",
+      "company_description": null,
+      "wholesale_available": null,
+      "confidence": 0.0
+    },
+    "public_contact": {
+      "name": null,
+      "role": "Director",
+      "phone": "10140-1018",
+      "email": null,
+      "address": null,
+      "city": null,
+      "country": null,
+      "confidence": 0.0
+    },
+    "evidence": [],
+    "ai_model": "gemini-3-flash-preview",
+    "ai_confidence": 0.94,
+    "pages_crawled": [
+      "https://realcompany.com/"
+    ],
+    "error": null
+  }
+}

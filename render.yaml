@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: resonance-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn web.app:app --host 0.0.0.0 --port $PORT
+    plan: starter
+    autoDeploy: true
+    healthCheckPath: /api/discovery/config/status
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.16
+      - key: GEMINI_MODEL
+        value: gemini-3-flash-preview
+      - key: DRY_RUN
+        value: "true"
+      - key: QUOTA_SAFE_MODE
+        value: "false"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: GOOGLE_CSE_ID
+        sync: false
+      - key: GMAIL_EMAIL
+        sync: false
+      - key: GMAIL_APP_PASSWORD
+        sync: false
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false
+    disk:
+      name: resonance-data
+      mountPath: /data
+      sizeGB: 1

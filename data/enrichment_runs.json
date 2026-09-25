@@ -1,0 +1,58 @@
+[
+  {
+    "run_id": "enrich_test_run_01",
+    "started_at": "2026-09-23T14:00:00Z",
+    "completed_at": "2026-09-23T14:00:02Z",
+    "lead_count": 5,
+    "successful_count": 4,
+    "failed_count": 1,
+    "skipped_count": 0,
+    "ai_calls": 0,
+    "websites_crawled": 0,
+    "status": "completed",
+    "duration": 2.1,
+    "error": null
+  },
+  {
+    "run_id": "enrich_test_run_01",
+    "started_at": "2026-09-23T14:00:00Z",
+    "completed_at": "2026-09-23T14:00:02Z",
+    "lead_count": 5,
+    "successful_count": 4,
+    "failed_count": 1,
+    "skipped_count": 0,
+    "ai_calls": 0,
+    "websites_crawled": 0,
+    "status": "completed",
+    "duration": 2.1,
+    "error": null
+  },
+  {
+    "run_id": "enrich_test_run_01",
+    "started_at": "2026-09-23T14:00:00Z",
+    "completed_at": "2026-09-23T14:00:02Z",
+    "lead_count": 5,
+    "successful_count": 4,
+    "failed_count": 1,
+    "skipped_count": 0,
+    "ai_calls": 0,
+    "websites_crawled": 0,
+    "status": "completed",
+    "duration": 2.1,
+    "error": null
+  },
+  {
+    "run_id": "enrich_test_run_01",
+    "started_at": "2026-09-23T14:00:00Z",
+    "completed_at": "2026-09-23T14:00:02Z",
+    "lead_count": 5,
+    "successful_count": 4,
+    "failed_count": 1,
+    "skipped_count": 0,
+    "ai_calls": 0,
+    "websites_crawled": 0,
+    "status": "completed",
+    "duration": 2.1,
+    "error": null
+  }
+]

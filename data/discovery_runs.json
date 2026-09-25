@@ -1,0 +1,638 @@
+[
+  {
+    "run_id": "run_20260925_130615_218d",
+    "timestamp": "2026-09-25T13:06:15.171425Z",
+    "start_time": "2026-09-25T13:06:15.171425Z",
+    "profile": {
+      "product_name": "Singing Bowls",
+      "product_category": "Home Decor",
+      "product_description": "Handcrafted singing bowls suitable for home decor, wellness spaces, meditation stores and lifestyle retailers.",
+      "target_country": "United States",
+      "target_state": "",
+      "buyer_types": [
+        "Importer",
+        "Distributor",
+        "Wholesaler",
+        "Retailer",
+        "Home Decor Store",
+        "Gift Shop",
+        "Wellness Store",
+        "Interior Decor Business",
+        "Lifestyle Store",
+        "Boutique Store",
+        "B2B Buyer",
+        "Specialty Store"
+      ],
+      "keywords": [],
+      "preferred_buyer_size": "any",
+      "website_required": false,
+      "email_required": false
+    },
+    "keyword": "Singing Bowls (Home Decor)",
+    "qualifiers": [
+      "Importer",
+      "Distributor",
+      "Wholesaler",
+      "Retailer",
+      "Home Decor Store",
+      "Gift Shop",
+      "Wellness Store",
+      "Interior Decor Business",
+      "Lifestyle Store",
+      "Boutique Store",
+      "B2B Buyer",
+      "Specialty Store"
+    ],
+    "sources_used": [
+      "Failing Source",
+      "Working Source"
+    ],
+    "queries": [
+      "test query"
+    ],
+    "raw_result_count": 1,
+    "extracted_lead_count": 1,
+    "valid_email_count": 1,
+    "us_match_count": 1,
+    "duplicate_count": 0,
+    "new_leads_added": 1,
+    "status": "completed",
+    "duration_seconds": 0.0,
+    "sources_status": {
+      "failing": {
+        "source_name": "Failing Source",
+        "status": "failed",
+        "raw_count": 0,
+        "records_extracted": 0,
+        "query": "",
+        "error": "Service Down"
+      },
+      "working": {
+        "source_name": "Working Source",
+        "status": "completed",
+        "raw_count": 1,
+        "records_extracted": 1,
+        "query": "test query",
+        "error": null
+      }
+    },
+    "errors": [
+      "Failing Source: Service Down"
+    ],
+    "end_time": "2026-09-25T13:06:15.171823Z",
+    "created_lead_ids": [
+      "lead_test_work_1"
+    ]
+  },
+  {
+    "run_id": "run_20260925_130615_3096",
+    "timestamp": "2026-09-25T13:06:15.172924Z",
+    "start_time": "2026-09-25T13:06:15.172924Z",
+    "profile": {
+      "product_name": "Singing Bowls",
+      "product_category": "Home Decor",
+      "product_description": "Handcrafted singing bowls suitable for home decor, wellness spaces, meditation stores and lifestyle retailers.",
+      "target_country": "United States",
+      "target_state": "",
+      "buyer_types": [
+        "Importer",
+        "Distributor",
+        "Wholesaler",
+        "Retailer",
+        "Home Decor Store",
+        "Gift Shop",
+        "Wellness Store",
+        "Interior Decor Business",
+        "Lifestyle Store",
+        "Boutique Store",
+        "B2B Buyer",
+        "Specialty Store"
+      ],
+      "keywords": [],
+      "preferred_buyer_size": "any",
+      "website_required": false,
+      "email_required": false
+    },
+    "keyword": "Singing Bowls (Home Decor)",
+    "qualifiers": [
+      "Importer",
+      "Distributor",
+      "Wholesaler",
+      "Retailer",
+      "Home Decor Store",
+      "Gift Shop",
+      "Wellness Store",
+      "Interior Decor Business",
+      "Lifestyle Store",
+      "Boutique Store",
+      "B2B Buyer",
+      "Specialty Store"
+    ],
+    "sources_used": [
+      "Mock Provider"
+    ],
+    "queries": [
+      "q"
+    ],
+    "raw_result_count": 1,
+    "extracted_lead_count": 1,
+    "valid_email_count": 1,
+    "us_match_count": 1,
+    "duplicate_count": 0,
+    "new_leads_added": 1,
+    "status": "completed",
+    "duration_seconds": 0.0,
+    "sources_status": {
+      "mock": {
+        "source_name": "Mock Provider",
+        "status": "completed",
+        "raw_count": 1,
+        "records_extracted": 1,
+        "query": "q",
+        "error": null
+      }
+    },
+    "errors": [],
+    "end_time": "2026-09-25T13:06:15.173350Z",
+    "created_lead_ids": [
+      "lead_test_real_1"
+    ]
+  },
+  {
+    "run_id": "run_20260925_130942_8e84",
+    "timestamp": "2026-09-25T13:09:42.654799Z",
+    "start_time": "2026-09-25T13:09:42.654799Z",
+    "profile": {
+      "product_name": "Singing Bowls",
+      "product_category": "Home Decor",
+      "product_description": "Handcrafted singing bowls suitable for home decor, wellness spaces, meditation stores and lifestyle retailers.",
+      "target_country": "United States",
+      "target_state": "",
+      "buyer_types": [
+        "Importer",
+        "Distributor",
+        "Wholesaler",
+        "Retailer",
+        "Home Decor Store",
+        "Gift Shop",
+        "Wellness Store",
+        "Interior Decor Business",
+        "Lifestyle Store",
+        "Boutique Store",
+        "B2B Buyer",
+        "Specialty Store"
+      ],
+      "keywords": [],
+      "preferred_buyer_size": "any",
+      "website_required": false,
+      "email_required": false
+    },
+    "keyword": "Singing Bowls (Home Decor)",
+    "qualifiers": [
+      "Importer",
+      "Distributor",
+      "Wholesaler",
+      "Retailer",
+      "Home Decor Store",
+      "Gift Shop",
+      "Wellness Store",
+      "Interior Decor Business",
+      "Lifestyle Store",
+      "Boutique Store",
+      "B2B Buyer",
+      "Specialty Store"
+    ],
+    "sources_used": [
+      "Failing Source",
+      "Working Source"
+    ],
+    "queries": [
+      "test query"
+    ],
+    "raw_result_count": 1,
+    "extracted_lead_count": 1,
+    "valid_email_count": 1,
+    "us_match_count": 1,
+    "duplicate_count": 1,
+    "new_leads_added": 0,
+    "status": "completed",
+    "duration_seconds": 0.0,
+    "sources_status": {
+      "failing": {
+        "source_name": "Failing Source",
+        "status": "failed",
+        "raw_count": 0,
+        "records_extracted": 0,
+        "query": "",
+        "error": "Service Down"
+      },
+      "working": {
+        "source_name": "Working Source",
+        "status": "completed",
+        "raw_count": 1,
+        "records_extracted": 1,
+        "query": "test query",
+        "error": null
+      }
+    },
+    "errors": [
+      "Failing Source: Service Down"
+    ],
+    "end_time": "2026-09-25T13:09:42.655367Z",
+    "created_lead_ids": [
+      "lead_test_work_1"
+    ]
+  },
+  {
+    "run_id": "run_20260925_130942_d947",
+    "timestamp": "2026-09-25T13:09:42.656567Z",
+    "start_time": "2026-09-25T13:09:42.656567Z",
+    "profile": {
+      "product_name": "Singing Bowls",
+      "product_category": "Home Decor",
+      "product_description": "Handcrafted singing bowls suitable for home decor, wellness spaces, meditation stores and lifestyle retailers.",
+      "target_country": "United States",
+      "target_state": "",
+      "buyer_types": [
+        "Importer",
+        "Distributor",
+        "Wholesaler",
+        "Retailer",
+        "Home Decor Store",
+        "Gift Shop",
+        "Wellness Store",
+        "Interior Decor Business",
+        "Lifestyle Store",
+        "Boutique Store",
+        "B2B Buyer",
+        "Specialty Store"
+      ],
+      "keywords": [],
+      "preferred_buyer_size": "any",
+      "website_required": false,
+      "email_required": false
+    },
+    "keyword": "Singing Bowls (Home Decor)",
+    "qualifiers": [
+      "Importer",
+      "Distributor",
+      "Wholesaler",
+      "Retailer",
+      "Home Decor Store",
+      "Gift Shop",
+      "Wellness Store",
+      "Interior Decor Business",
+      "Lifestyle Store",
+      "Boutique Store",
+      "B2B Buyer",
+      "Specialty Store"
+    ],
+    "sources_used": [
+      "Mock Provider"
+    ],
+    "queries": [
+      "q"
+    ],
+    "raw_result_count": 1,
+    "extracted_lead_count": 1,
+    "valid_email_count": 1,
+    "us_match_count": 1,
+    "duplicate_count": 1,
+    "new_leads_added": 0,
+    "status": "completed",
+    "duration_seconds": 0.0,
+    "sources_status": {
+      "mock": {
+        "source_name": "Mock Provider",
+        "status": "completed",
+        "raw_count": 1,
+        "records_extracted": 1,
+        "query": "q",
+        "error": null
+      }
+    },
+    "errors": [],
+    "end_time": "2026-09-25T13:09:42.656938Z",
+    "created_lead_ids": [
+      "lead_test_real_1"
+    ]
+  },
+  {
+    "run_id": "run_20260925_131014_5946",
+    "timestamp": "2026-09-25T13:10:14.463209Z",
+    "start_time": "2026-09-25T13:10:14.463209Z",
+    "profile": {
+      "product_name": "Singing Bowls",
+      "product_category": "Home Decor",
+      "product_description": "Handcrafted singing bowls suitable for home decor, wellness spaces, meditation stores and lifestyle retailers.",
+      "target_country": "United States",
+      "target_state": "",
+      "buyer_types": [
+        "Importer",
+        "Distributor",
+        "Wholesaler",
+        "Retailer",
+        "Home Decor Store",
+        "Gift Shop",
+        "Wellness Store",
+        "Interior Decor Business",
+        "Lifestyle Store",
+        "Boutique Store",
+        "B2B Buyer",
+        "Specialty Store"
+      ],
+      "keywords": [],
+      "preferred_buyer_size": "any",
+      "website_required": false,
+      "email_required": false
+    },
+    "keyword": "Singing Bowls (Home Decor)",
+    "qualifiers": [
+      "Importer",
+      "Distributor",
+      "Wholesaler",
+      "Retailer",
+      "Home Decor Store",
+      "Gift Shop",
+      "Wellness Store",
+      "Interior Decor Business",
+      "Lifestyle Store",
+      "Boutique Store",
+      "B2B Buyer",
+      "Specialty Store"
+    ],
+    "sources_used": [
+      "Failing Source",
+      "Working Source"
+    ],
+    "queries": [
+      "test query"
+    ],
+    "raw_result_count": 1,
+    "extracted_lead_count": 1,
+    "valid_email_count": 1,
+    "us_match_count": 1,
+    "duplicate_count": 1,
+    "new_leads_added": 0,
+    "status": "completed",
+    "duration_seconds": 0.0,
+    "sources_status": {
+      "failing": {
+        "source_name": "Failing Source",
+        "status": "failed",
+        "raw_count": 0,
+        "records_extracted": 0,
+        "query": "",
+        "error": "Service Down"
+      },
+      "working": {
+        "source_name": "Working Source",
+        "status": "completed",
+        "raw_count": 1,
+        "records_extracted": 1,
+        "query": "test query",
+        "error": null
+      }
+    },
+    "errors": [
+      "Failing Source: Service Down"
+    ],
+    "end_time": "2026-09-25T13:10:14.463957Z",
+    "created_lead_ids": [
+      "lead_test_work_1"
+    ]
+  },
+  {
+    "run_id": "run_20260925_131014_2618",
+    "timestamp": "2026-09-25T13:10:14.465321Z",
+    "start_time": "2026-09-25T13:10:14.465321Z",
+    "profile": {
+      "product_name": "Singing Bowls",
+      "product_category": "Home Decor",
+      "product_description": "Handcrafted singing bowls suitable for home decor, wellness spaces, meditation stores and lifestyle retailers.",
+      "target_country": "United States",
+      "target_state": "",
+      "buyer_types": [
+        "Importer",
+        "Distributor",
+        "Wholesaler",
+        "Retailer",
+        "Home Decor Store",
+        "Gift Shop",
+        "Wellness Store",
+        "Interior Decor Business",
+        "Lifestyle Store",
+        "Boutique Store",
+        "B2B Buyer",
+        "Specialty Store"
+      ],
+      "keywords": [],
+      "preferred_buyer_size": "any",
+      "website_required": false,
+      "email_required": false
+    },
+    "keyword": "Singing Bowls (Home Decor)",
+    "qualifiers": [
+      "Importer",
+      "Distributor",
+      "Wholesaler",
+      "Retailer",
+      "Home Decor Store",
+      "Gift Shop",
+      "Wellness Store",
+      "Interior Decor Business",
+      "Lifestyle Store",
+      "Boutique Store",
+      "B2B Buyer",
+      "Specialty Store"
+    ],
+    "sources_used": [
+      "Mock Provider"
+    ],
+    "queries": [
+      "q"
+    ],
+    "raw_result_count": 1,
+    "extracted_lead_count": 1,
+    "valid_email_count": 1,
+    "us_match_count": 1,
+    "duplicate_count": 1,
+    "new_leads_added": 0,
+    "status": "completed",
+    "duration_seconds": 0.0,
+    "sources_status": {
+      "mock": {
+        "source_name": "Mock Provider",
+        "status": "completed",
+        "raw_count": 1,
+        "records_extracted": 1,
+        "query": "q",
+        "error": null
+      }
+    },
+    "errors": [],
+    "end_time": "2026-09-25T13:10:14.465792Z",
+    "created_lead_ids": [
+      "lead_test_real_1"
+    ]
+  },
+  {
+    "run_id": "run_20260925_131623_1f90",
+    "timestamp": "2026-09-25T13:16:23.148288Z",
+    "start_time": "2026-09-25T13:16:23.148288Z",
+    "profile": {
+      "product_name": "Singing Bowls",
+      "product_category": "Home Decor",
+      "product_description": "Handcrafted singing bowls suitable for home decor, wellness spaces, meditation stores and lifestyle retailers.",
+      "target_country": "United States",
+      "target_state": "",
+      "buyer_types": [
+        "Importer",
+        "Distributor",
+        "Wholesaler",
+        "Retailer",
+        "Home Decor Store",
+        "Gift Shop",
+        "Wellness Store",
+        "Interior Decor Business",
+        "Lifestyle Store",
+        "Boutique Store",
+        "B2B Buyer",
+        "Specialty Store"
+      ],
+      "keywords": [],
+      "preferred_buyer_size": "any",
+      "website_required": false,
+      "email_required": false
+    },
+    "keyword": "Singing Bowls (Home Decor)",
+    "qualifiers": [
+      "Importer",
+      "Distributor",
+      "Wholesaler",
+      "Retailer",
+      "Home Decor Store",
+      "Gift Shop",
+      "Wellness Store",
+      "Interior Decor Business",
+      "Lifestyle Store",
+      "Boutique Store",
+      "B2B Buyer",
+      "Specialty Store"
+    ],
+    "sources_used": [
+      "Failing Source",
+      "Working Source"
+    ],
+    "queries": [
+      "test query"
+    ],
+    "raw_result_count": 1,
+    "extracted_lead_count": 1,
+    "valid_email_count": 1,
+    "us_match_count": 1,
+    "duplicate_count": 1,
+    "new_leads_added": 0,
+    "status": "completed",
+    "duration_seconds": 0.0,
+    "sources_status": {
+      "failing": {
+        "source_name": "Failing Source",
+        "status": "failed",
+        "raw_count": 0,
+        "records_extracted": 0,
+        "query": "",
+        "error": "Service Down"
+      },
+      "working": {
+        "source_name": "Working Source",
+        "status": "completed",
+        "raw_count": 1,
+        "records_extracted": 1,
+        "query": "test query",
+        "error": null
+      }
+    },
+    "errors": [
+      "Failing Source: Service Down"
+    ],
+    "end_time": "2026-09-25T13:16:23.148969Z",
+    "created_lead_ids": [
+      "lead_test_work_1"
+    ]
+  },
+  {
+    "run_id": "run_20260925_131623_9db3",
+    "timestamp": "2026-09-25T13:16:23.150219Z",
+    "start_time": "2026-09-25T13:16:23.150219Z",
+    "profile": {
+      "product_name": "Singing Bowls",
+      "product_category": "Home Decor",
+      "product_description": "Handcrafted singing bowls suitable for home decor, wellness spaces, meditation stores and lifestyle retailers.",
+      "target_country": "United States",
+      "target_state": "",
+      "buyer_types": [
+        "Importer",
+        "Distributor",
+        "Wholesaler",
+        "Retailer",
+        "Home Decor Store",
+        "Gift Shop",
+        "Wellness Store",
+        "Interior Decor Business",
+        "Lifestyle Store",
+        "Boutique Store",
+        "B2B Buyer",
+        "Specialty Store"
+      ],
+      "keywords": [],
+      "preferred_buyer_size": "any",
+      "website_required": false,
+      "email_required": false
+    },
+    "keyword": "Singing Bowls (Home Decor)",
+    "qualifiers": [
+      "Importer",
+      "Distributor",
+      "Wholesaler",
+      "Retailer",
+      "Home Decor Store",
+      "Gift Shop",
+      "Wellness Store",
+      "Interior Decor Business",
+      "Lifestyle Store",
+      "Boutique Store",
+      "B2B Buyer",
+      "Specialty Store"
+    ],
+    "sources_used": [
+      "Mock Provider"
+    ],
+    "queries": [
+      "q"
+    ],
+    "raw_result_count": 1,
+    "extracted_lead_count": 1,
+    "valid_email_count": 1,
+    "us_match_count": 1,
+    "duplicate_count": 1,
+    "new_leads_added": 0,
+    "status": "completed",
+    "duration_seconds": 0.0,
+    "sources_status": {
+      "mock": {
+        "source_name": "Mock Provider",
+        "status": "completed",
+        "raw_count": 1,
+        "records_extracted": 1,
+        "query": "q",
+        "error": null
+      }
+    },
+    "errors": [],
+    "end_time": "2026-09-25T13:16:23.150683Z",
+    "created_lead_ids": [
+      "lead_test_real_1"
+    ]
+  }
+]

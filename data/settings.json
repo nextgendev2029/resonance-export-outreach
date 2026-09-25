@@ -1,0 +1,14 @@
+{
+  "gmail_email": "",
+  "gmail_app_password": "",
+  "monitoring_cc_email": "",
+  "search_keyword": "Singing Bowls",
+  "daily_send_limit": 100,
+  "send_delay_seconds": 5,
+  "presentation_path": "assets/company_presentation.pdf",
+  "gemini_api_key": "",
+  "gemini_model": "gemini-3-flash-preview",
+  "classification_batch_size": 20,
+  "default_subject": "Handcrafted Himalayan Singing Bowls \u2014 B2B Wholesale Catalog & Export Pricing",
+  "default_body": "Dear {{buyer_name}},\n\nI hope this message finds you well.\n\nWe are specialized Himalayan artisans and direct exporters of authentic hand-hammered Singing Bowls, meditation gongs, and sound-healing instruments.\n\nWe noticed {{company_name}}'s focus on quality holistic wellness and musical instruments. We would love to share our latest 2026 Export Catalog and direct manufacturer wholesale price list with your procurement team.\n\nPlease find our complete company presentation and export specifications attached.\n\nKey B2B Offerings:\n\u2022 Authentic 7-metal hand-hammered singing bowls (graded Frequencies & Hz)\n\u2022 Custom engraving and OEM private labeling for international distributors\n\u2022 Direct worldwide door-to-door export shipping with full export documentation\n\nWould you be open to reviewing our wholesale price sheet this week?\n\nWarm regards,\n\nExport Operations Team\nHimalayan Singing Bowls Exporters\nexport@himalayanbowls.org | www.himalayanbowls.org\n"
+}
