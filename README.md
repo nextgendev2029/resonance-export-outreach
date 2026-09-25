@@ -1,6 +1,8 @@
-# Resonance - Export Outreach & Operations
+# Resonance - Export Outreach & Lead Operations
 
 > Operational B2B buyer discovery, lead intelligence, campaign staging, and controlled outreach platform for home-decor exporters targeting the United States market.
+
+**Live Demo**: [https://resonance-export-outreach.onrender.com/](https://resonance-export-outreach.onrender.com/)
 
 ---
 
@@ -270,11 +272,9 @@ cd ..
 
 ## 12. Deployment Architecture
 
-Resonance supports two production architectures:
+The production application is deployed on **Render** as a unified full-stack service:
 
-### Option A: Unified Full-Stack on Render (Recommended)
-FastAPI serves both the REST API endpoints and the pre-built React production bundle (`web/static/`).
-
+- **Live URL**: [https://resonance-export-outreach.onrender.com/](https://resonance-export-outreach.onrender.com/)
 - **Platform**: [Render](https://render.com) Web Service
 - **Root Directory**: Repository root (`.`)
 - **Runtime**: `Python 3`
@@ -283,18 +283,7 @@ FastAPI serves both the REST API endpoints and the pre-built React production bu
 - **Health Check Path**: `/api/discovery/config/status`
 - **Persistent Disk**: Mount `data` at `/data` (1 GB) with `DATA_DIR=/data`
 
-### Option B: Split Frontend (Vercel) + Backend (Render)
-For teams preferring CDN frontend distribution with independent API hosting:
-
-1. **Frontend on Vercel**:
-   - **Root Directory**: `frontend`
-   - **Framework Preset**: Vite
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-   - **Environment Variable**: `VITE_API_BASE_URL=https://<your-render-backend>.onrender.com`
-2. **Backend on Render**:
-   - Configure Render with `CORS_ALLOWED_ORIGINS=https://<your-vercel-frontend>.vercel.app`
-   - All backend API keys and Gmail credentials remain securely stored in Render environment variables.
+FastAPI directly serves both the REST API endpoints and the compiled React production application (`web/static/`), enabling single-service hosting and deterministic state management.
 
 ---
 
